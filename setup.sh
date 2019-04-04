@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pip install -r requirements.txt 
+pip install --user -r requirements.txt 
 
 wget https://www.dropbox.com/s/fnpq3z4bcnoktiv/positive.csv?dl=1
 mv positive.csv?dl=1 data/positive.csv
