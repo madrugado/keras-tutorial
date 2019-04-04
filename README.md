@@ -1,5 +1,13 @@
 # Keras tutorial for text classification
 
-В этом репозитории лежат базовое решение и данные для него.
+There are two solutions of simple text classification problem: baseline and CNN.
 
-Чтобы начать работать с репозиторием, запустите ```./setup.sh```.
+Your task is to build RNN solution. Use the following code:
+
+```python
+model.add(Embedding(...))
+model.add(LSTM(hidden_size, return_sequences=True))
+model.add(TimeDistributed(Dense(...)))
+model.add(Activation('softmax'))
+
+```

@@ -2,3 +2,6 @@ numpy
 pandas
 keras
 pydot-ng
+tensorflow-gpu
+gensim
+nltk
